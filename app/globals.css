@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes float-1 {
+  0% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  20% {
+    transform: translateY(-20px) translateX(15px);
+    filter: drop-shadow(0 20px 15px rgba(0, 0, 0, 0.05));
+  }
+  40% {
+    transform: translateY(-10px) translateX(30px);
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08));
+  }
+  60% {
+    transform: translateY(15px) translateX(20px);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  80% {
+    transform: translateY(25px) translateX(5px);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.06));
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+}
+
+@keyframes float-2 {
+  0% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  25% {
+    transform: translateY(15px) translateX(-20px);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  50% {
+    transform: translateY(-10px) translateX(-30px);
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08));
+  }
+  75% {
+    transform: translateY(-25px) translateX(-15px);
+    filter: drop-shadow(0 20px 15px rgba(0, 0, 0, 0.05));
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+}
+
+@keyframes float-3 {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  20% {
+    transform: translateY(-15px) translateX(10px) rotate(5deg);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  40% {
+    transform: translateY(0) translateX(25px) rotate(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  60% {
+    transform: translateY(20px) translateX(15px) rotate(-5deg);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  80% {
+    transform: translateY(10px) translateX(0) rotate(-8deg);
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08));
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+}
+
+@keyframes float-4 {
+  0% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  33% {
+    transform: translateY(25px) translateX(-15px);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  66% {
+    transform: translateY(-20px) translateX(-25px);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+}
+
+@keyframes float-5 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  20% {
+    transform: translateY(-10px) translateX(15px) scale(1.05);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  40% {
+    transform: translateY(15px) translateX(25px) scale(1);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  60% {
+    transform: translateY(20px) translateX(10px) scale(0.95);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  80% {
+    transform: translateY(5px) translateX(-5px) scale(1.05);
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.05));
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+}
+
+/* Add these to your Tailwind config or use in your component with className */
+.animate-float-1 {
+  animation: float-1 18s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  animation: float-2 20s ease-in-out infinite;
+}
+
+.animate-float-3 {
+  animation: float-3 15s ease-in-out infinite;
+}
+
+.animate-float-4 {
+  animation: float-4 22s ease-in-out infinite;
+}
+
+.animate-float-5 {
+  animation: float-5 17s ease-in-out infinite;
+}
