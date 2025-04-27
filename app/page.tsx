@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Hello, I am{" "}
             <span className="inline-block bg-gradient-to-r from-rose-800 via-purple-900 to-gray-900 bg-[length:200%_100%] bg-clip-text text-transparent font-bold animate-shimmer">
-              Sai Pujitha ■
+              Kamma Sai Pujitha ■
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto md:mx-0">

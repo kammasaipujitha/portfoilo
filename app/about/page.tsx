@@ -108,7 +108,7 @@ export default function About() {
                 />
               </div>
               <h3 className="mt-4 text-black font-medium text-lg">
-                Sai Pujitha
+                Kamma Sai Pujitha
               </h3>
               <p className="text-gray-600 text-center">
                 Machine Learning Engineer
@@ -367,11 +367,7 @@ export default function About() {
                Being skilled in programming language i am actively seeking opportunity in top companies with good annual income as a recommendation system developer, data scientist and AI/ML engineer
               </p>
               <div className="flex flex-wrap gap-2">
-                <SiHtml5 className="text-orange-600 text-2xl md:text-3xl" />
-                <SiPython className="text-yellow-500 text-2xl md:text-3xl ml-2" />
-                <SiNodedotjs className="text-green-600 text-2xl md:text-3xl ml-2" />
-                <SiReact className="text-cyan-500 text-2xl md:text-3xl ml-2" />
-                <SiTensorflow className="text-orange-500 text-2xl md:text-3xl ml-2" />
+                
               </div>
             </div>
           </GridItem>
@@ -403,7 +399,7 @@ export default function About() {
                 <div>
                   <div className=" text-black">
                     <h4 className="font-medium">Nptel</h4>
-                    <p className="text-xs text-gray-600">30DC</p>
+                    <p className="text-xs text-gray-600">Sc</p>
                   </div>
                 </div>
               </div>
@@ -411,20 +407,7 @@ export default function About() {
           </GridItem>
 
           {/* My Reads */}
-          <GridItem
-            title="My Reads"
-            link="/reads"
-            className="md:col-span-4 md:row-span-1"
-          >
-            <div className="flex flex-col items-center">
-              <p className="text-gray-700 mb-4 text-center">
-                Explore the books shaping my perspectives.
-              </p>
-              <div className="bg-gray-100 p-3 rounded w-32 h-40 flex items-center justify-center">
-                <p className="text-center font-medium">Atomic Habits</p>
-              </div>
-            </div>
-          </GridItem>
+          
 
           {/* Beyond the Code */}
           <GridItem
@@ -440,10 +423,10 @@ export default function About() {
                 {[
                   { name: "Painting", icon: "🎨" },
                   { name: "Photography", icon: "📸" },
-                  { name: "Gaming", icon: "🎮" },
-                  { name: "Hiking", icon: "🥾" },
+                 
+                  
                   { name: "Music", icon: "🎵" },
-                  { name: "Fitness", icon: "💪" },
+                 
                   { name: "Reading", icon: "📚" },
                 ].map((hobby) => (
                   <span

@@ -94,10 +94,10 @@ export default function Resume() {
     },
     
     {
-      title: "Machine Learning CV",
+      title: "Specialized cv",
       description: "Focused on Machine Learning expertise",
       icon: <FiAward />,
-      file: "/CV/sai pujitha.pdf"
+      file: "/CV/ML.pdf"
     }
   ];
 
